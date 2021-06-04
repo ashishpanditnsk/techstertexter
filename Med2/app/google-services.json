@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945027757602",
+    "firebase_url": "https://med2fb-default-rtdb.firebaseio.com",
+    "project_id": "med2fb",
+    "storage_bucket": "med2fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945027757602:android:21d7521850a7f41a5a3c7b",
+        "android_client_info": {
+          "package_name": "com.example.med2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945027757602-o900d1i46kfipf0lo8kmfpt3ik758njv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPv44bWt4N95x-JajvTAWOCLzuIv7hVEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945027757602-o900d1i46kfipf0lo8kmfpt3ik758njv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">945027757602-o900d1i46kfipf0lo8kmfpt3ik758njv.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://med2fb-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">945027757602</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPv44bWt4N95x-JajvTAWOCLzuIv7hVEA</string>
+    <string name="google_app_id" translatable="false">1:945027757602:android:21d7521850a7f41a5a3c7b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPv44bWt4N95x-JajvTAWOCLzuIv7hVEA</string>
+    <string name="google_storage_bucket" translatable="false">med2fb.appspot.com</string>
+    <string name="project_id" translatable="false">med2fb</string>
+</resources>

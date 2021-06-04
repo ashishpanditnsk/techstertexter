@@ -1,0 +1,16 @@
+com/example/med2/Users.java
+ com.example.med2.Users
+com/example/med2/person.java
+ com.example.med2.person
+com/example/med2/MainActivity.java
+ com.example.med2.MainActivity
+ com.example.med2.MainActivity$1
+com/example/med2/personAdapter.java
+ com.example.med2.personAdapter
+ com.example.med2.personAdapter$1
+ com.example.med2.personAdapter$personsViewholder
+com/example/med2/BuildConfig.java
+ com.example.med2.BuildConfig
+com/example/med2/chat.java
+ com.example.med2.chat
+ com.example.med2.chat$1

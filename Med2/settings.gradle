@@ -1,0 +1,2 @@
+rootProject.name = "Med2"
+include ':app'
