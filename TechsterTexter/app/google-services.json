@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "605150942193",
+    "firebase_url": "https://techster-texter-24eaa-default-rtdb.firebaseio.com",
+    "project_id": "techster-texter-24eaa",
+    "storage_bucket": "techster-texter-24eaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605150942193:android:2672286f9d7c32a50b2a50",
+        "android_client_info": {
+          "package_name": "com.example.techstertexter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605150942193-cdn8qqnfrsbgtukfm1kkogs29m5lkmvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CzfHes7Qg2kBb8JwcYhWtHHSPg-QcvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605150942193-cdn8qqnfrsbgtukfm1kkogs29m5lkmvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
