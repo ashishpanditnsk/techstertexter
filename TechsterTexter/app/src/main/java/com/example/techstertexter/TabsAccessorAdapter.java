@@ -24,10 +24,6 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
                 return groupsFragment;
 
             case 2:
-                ContactsFragment contactsFragment = new ContactsFragment();
-                return contactsFragment;
-
-            case 3:
                 RequestsFragment requestsFragment = new RequestsFragment();
                 return requestsFragment;
 
@@ -51,9 +47,6 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
             return "Groups";
         }
         if (position == 2) {
-            return "Contacts";
-        }
-        if (position == 3) {
             return "Requests";
         }
         else{
