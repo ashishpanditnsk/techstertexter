@@ -111,13 +111,13 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if((dataSnapshot.child("name").exists()))
                 {
-                    Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(MainActivity.this, "Welcome", Toast.LENGTH_SHORT).show();
                 }
-//                else
-//                {
-//                    SendUserToSettingsActivity();
-//
-//                }
+                else
+                {
+                    SendUserToSettingsActivity();
+
+                }
             }
 
             @Override
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(item.getItemId() == R.id.main_settings_option)
         {
-            //SendUserToSettingsActivity();
+            SendUserToSettingsActivity();
         }
 
         if(item.getItemId() == R.id.main_logout_option)
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (item.getItemId() == R.id.main_find_friends_option)
         {
-            //SendUserToFindFriendsActivity();
+            SendUserToFindFriendsActivity();
         }
         return true;
     }
@@ -220,15 +220,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(loginIntent);
     }
 
-//    private void SendUserToSettingsActivity() {
-//        Intent settingsIntent = new Intent(MainActivity.this, SettingsActivity.class);
-//        startActivity(settingsIntent);
-//    }
-//    private void SendUserToFindFriendsActivity()
-//    {
-//        Intent findFriendsIntent = new Intent(MainActivity.this, FindFriendsActivity.class);
-//        startActivity(findFriendsIntent);
-//    }
+    private void SendUserToSettingsActivity() {
+        Intent settingsIntent = new Intent(MainActivity.this, SettingsActivity.class);
+        startActivity(settingsIntent);
+    }
+    private void SendUserToFindFriendsActivity()
+    {
+        Intent findFriendsIntent = new Intent(MainActivity.this, FindFriendsActivity.class);
+        startActivity(findFriendsIntent);
+    }
     private void updateUserStatus(String state)
     {
         String saveCurrentTime, saveCurrentDate;

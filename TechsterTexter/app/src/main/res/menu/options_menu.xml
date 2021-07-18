@@ -15,6 +15,12 @@
         app:showAsAction="never"> </item>
 
     <item
+        android:title="Whatsapp web"
+
+        android:id="@+id/main_whatsapp_web_option"
+        app:showAsAction="never"> </item>
+
+    <item
         android:title="Settings"
         android:id="@+id/main_settings_option"
         app:showAsAction="never"> </item>
