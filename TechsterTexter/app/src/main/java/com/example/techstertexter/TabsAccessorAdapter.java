@@ -27,6 +27,10 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
                 RequestsFragment requestsFragment = new RequestsFragment();
                 return requestsFragment;
 
+            case 3:
+                CallsFragment callsFragment = new CallsFragment();
+                return callsFragment;
+
             default:
                 return null;
         }
@@ -48,6 +52,9 @@ public class TabsAccessorAdapter extends FragmentPagerAdapter {
         }
         if (position == 2) {
             return "Requests";
+        }
+        if (position == 3) {
+            return "Calls";
         }
         else{
             return null;

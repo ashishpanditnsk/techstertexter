@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Label Chat"
+        android:id="@+id/label_chat_option"
+        app:showAsAction="never"> </item>
+
+    <item
+        android:title="View Contact"
+        android:id="@+id/view_contact_option"
+        app:showAsAction="never"> </item>
+
+    <item
+        android:title="Media"
+        android:id="@+id/media_option"
+        app:showAsAction="never"> </item>
+
+    <item
+        android:title="Search"
+        android:id="@+id/search_option"
+        app:showAsAction="never"> </item>
+
+    <item
+        android:title="Mute Notifications"
+        android:id="@+id/mute_notification_option"
+        app:showAsAction="never"> </item>
+
+    <item
+        android:title="Wallpaper"
+        android:id="@+id/wallpaper_option"
+        app:showAsAction="never"> </item>
+
+    <item
+        android:title="More"
+        android:id="@+id/more_option"
+        app:showAsAction="never">
+
+    <menu>
+            <item android:id="@+id/report"
+                android:title="Report" />
+            <item android:id="@+id/block"
+                android:title="Block" />
+            <item android:id="@+id/clear_chat"
+                android:title="Clear Chat" />
+        </menu>
+
+    </item>
+
+</menu>
